@@ -65,5 +65,6 @@ GameJamJan21/mono_crash.0.0.json
 
 # downloaded files
 Grpc-Tools/
-GameLogs/log-*
 Assets/Plugins/*.meta
+GameJamJan21/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+GameJamJan21/fmod_editor.log

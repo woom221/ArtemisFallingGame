@@ -11,6 +11,9 @@
         },
         {
             "m_Id": "f93029af997a49f6ad7e2d65df30d1d3"
+        },
+        {
+            "m_Id": "a82d7c52f72e4fe5a98f2b9699c4585f"
         }
     ],
     "m_Keywords": [],
@@ -68,25 +71,14 @@
         },
         {
             "m_Id": "dac1b1bee967475db53fe7a72bcae6e8"
+        },
+        {
+            "m_Id": "a5444491e1004bf59f7b67c9d12ea209"
         }
     ],
     "m_GroupDatas": [],
     "m_StickyNoteDatas": [],
     "m_Edges": [
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "13a8bc96890c4b7c949acaf1f1f5efd9"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "a02df7b3a4ec4350ab17fe09a842db4a"
-                },
-                "m_SlotId": 0
-            }
-        },
         {
             "m_OutputSlot": {
                 "m_Node": {
@@ -197,6 +189,20 @@
                     "m_Id": "5cd8647561d84c37adac7bc99329dba2"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "a5444491e1004bf59f7b67c9d12ea209"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "a02df7b3a4ec4350ab17fe09a842db4a"
+                },
+                "m_SlotId": 0
             }
         },
         {
@@ -790,6 +796,9 @@
         },
         {
             "m_Id": "f93029af997a49f6ad7e2d65df30d1d3"
+        },
+        {
+            "m_Id": "a82d7c52f72e4fe5a98f2b9699c4585f"
         }
     ]
 }
@@ -816,6 +825,31 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
+    "m_ObjectId": "4a0af422a92244abb3f000938e724916",
+    "m_Id": 0,
+    "m_DisplayName": "Color",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": []
 }
 
 {
@@ -1402,6 +1436,70 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "a5444491e1004bf59f7b67c9d12ea209",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 810.7500610351563,
+            "y": 526.7000732421875,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "4a0af422a92244abb3f000938e724916"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "a82d7c52f72e4fe5a98f2b9699c4585f"
+    }
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "a82d7c52f72e4fe5a98f2b9699c4585f",
+    "m_Guid": {
+        "m_GuidSerialized": "2c86ac80-874d-403b-a32c-ef74b702c74f"
+    },
+    "m_Name": "Color",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Color",
+    "m_DefaultReferenceName": "_Color",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {
